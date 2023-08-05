@@ -9,7 +9,7 @@ public class numbergame {
     Random random = new Random();
 int score = 0;
 boolean playAgain = true;
-System.out.println("Welcome to the Number Guessing Game!");
+System.out.println("Welcome to the Number Guesing game!");
 while (playAgain){
     int targetNumber=random.nextInt(MAX_NUMBER) + 1;
     System.out.println("\nI've picked a number between 1 and 100(inclusive).Can you guess it?");
